@@ -6,7 +6,7 @@ The first step is simulation, done by the mesh_creator file. This python file ou
 
 In fact, every vertex of the mesh has a constant x and y coordinate - the only thing that changes is the z coordinates. According to the wave equation,
 
-<img src="https://latex.codecogs.com/gif.latex?\frac{d^2u}{dt^2}=c^2\Delta^2u" /> 
+<img src="https://latex.codecogs.com/gif.latex?\frac{d^2u}{dt^2}=c^2\nabla^2u" /> 
 
 where u is a function of x and y (in our 2D case). We numerically integrate this equation using the recurrence relation in this paper: https://people.ece.cornell.edu/land/courses/ece5760/LABS/f2009/FPGAfd.pdf
 
